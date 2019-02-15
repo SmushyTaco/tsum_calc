@@ -1,0 +1,18 @@
+[package]
+name = "tsum_calc"
+version = "1.0.0"
+authors = ["SmushyRepo"]
+description = "A simple command-line Triangle Sum Theorem calculator."
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SmushyRepo/tsum_calc/"
+homepage = "https://github.com/SmushyRepo/tsum_calc/"
+documentation = "https://github.com/SmushyRepo/tsum_calc/"
+
+[profile.dev]
+opt-level=3
+
+[profile.release]
+opt-level=3
+
+[dependencies]
